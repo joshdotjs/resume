@@ -9,3 +9,8 @@ import './web-comps/_external-styles/web-comp.js';
 import './web-comps/section-1/section-1.js';
 import './web-comps/section-2/section-2.js';
 import './web-comps/section-3/section-3.js';
+import './web-comps/section-3/project-1.js';
+import './web-comps/section-3/project-2.js';
+import './web-comps/section-3/project-3.js';
+import './web-comps/section-3/project-4.js';
+import './web-comps/section-3/project-5.js';
