@@ -5,24 +5,23 @@
 
 .section-2 {
   display: grid;
-  // justify-content: space-between;
   grid-template-columns: repeat(16, 1fr);
-  grid-template-rows: repeat(8, 10px);
-  gap: $gap;
+  // grid-template-rows: repeat(20, auto);
+  // gap: $gap;
 
   &__left {
     grid-column: 1 / 6;
-    grid-row: 1 / 10;
+    grid-row: 1 / 20;
   }
 
   &__middle {
     grid-column: 11 / -1;
-    grid-row: 1 / 9;
+    grid-row: 1 / 18;
   }
   
   &__right {
     grid-column: 5 / 10;
-    grid-row: 2 / 8;
+    grid-row: 3 / 15;
     background: $bg-blue;
     // transform: rotate(5deg);
   }
