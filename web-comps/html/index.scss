@@ -4,7 +4,7 @@ pre code {
   background-color: black;
   border: 1px solid #999;
   display: block;
-  border-radius: 5px;
+  border-radius: $radius;
   overflow: hidden;
   padding: 1rem;
 }

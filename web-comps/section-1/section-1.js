@@ -1,21 +1,21 @@
 const template = document.createElement('template');
 template.innerHTML = `
-    <section class="section-1">
+    <section class="section-1 ">
       <div class="section-1__left">
         <h1>Josh Holloway</h1>
         <h2>Web Developer</h2>
         <h5>
           <a href="">
             <svg-mail></svg-mail>
-            <!-- joshDotJS@gmail.com -->
-            <span>josh@josh.js</span>
+            <!-- <span>josh@josh.js</span> -->
+            <span>joshDotJS@gmail.com</span>
           </a>
         </h5>
       </div>
 
       <div class="section-1__right">
 
-        <div>
+        <div class="socials">
           <h5>
             <a href="https://www.youtube.com/@JHolloway">
               <svg-youtube></svg-youtube>
@@ -28,7 +28,7 @@ template.innerHTML = `
           </h5>
         </div>
 
-        <a href="">hollowayJosh.com</a>
+        <a class="website-link" href="">hollowayJosh.com</a>
       </div>
     </section>
 `;

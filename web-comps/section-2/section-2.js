@@ -1,7 +1,7 @@
 const template = document.createElement('template');
 template.innerHTML = `
   <section class="section-2">
-    <div class="section-2__left card">
+    <div class="section-2__left card shadow">
       <h2>Relavent Skills</h2>
       <ul>
         <li>React / Next.js</li>
@@ -16,19 +16,25 @@ template.innerHTML = `
       </ul>
     </div>
 
-    <div class="section-2__middle card">
+    <div class="section-2__middle card shadow">
       <h2>Relevant Education</h2>
-      <p>Full Stack Web Development Certificate</p>
-      <p>Bloom Institute of Technology (2022)</p>
-      <p>Stack specialization:</p>
       <ul>
-        <li>React</li>
-        <li>Node.js</li>
-        <li>PostgreSQL</li>
+        <li>Full Stack Web Development Certificate</li>
+        <li>Bloom Institute of Technology (2022)</li>
+        <li>Stack specialization:
+
+          <ul class="level-2">
+            <li>React</li>
+            <li>Node.js</li>
+            <li>PostgreSQL</li>
+          </ul>
+
+        </li>
       </ul>
+
     </div>
 
-    <div class="section-2__right card">
+    <div class="section-2__right card shadow">
       <h2>Portfolio Summary</h2>
       <ul>
         <li><a href="https://www.php-web-app.com/">php-web-app.com</a></li>

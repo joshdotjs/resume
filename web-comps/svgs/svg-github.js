@@ -1,7 +1,7 @@
 const innerHTML = `
   <style>
     .svg-github {
-      background: lightgreen;
+      /* background: lightgreen; */
     }
   </style>
   <svg 

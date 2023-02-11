@@ -4,7 +4,9 @@
 
 
 .section-3 {
-  background: $bg-blue;
+  // background: $bg-blue;
+  padding: $gap;
+  margin-bottom: 0;
 
   &__project-1,
   &__project-2,
@@ -13,41 +15,22 @@
     margin-bottom: 1rem;
   }
 
-  .card {
+  .project {
+    // background: $bg-blue;
+    background: white;
     display: grid;
     grid-template-columns: 60% 1fr;
     grid-template-rows:    auto 1fr;
     gap: $gap;
     padding: $gap;
     // background: lightgreen;
+    border: solid black 1px;
+    border-radius: $radius;
     
     .left {
       grid-row: 1 / -1; 
       border: dashed rgba(0, 0, 0, 0.1) 1px;
       // background: lightblue;
-
-      h5 { 
-        font-size: 2rem; 
-        line-height: 1;
-        margin: 0;
-        margin-bottom: calc(0.5 * #{$gap});
-      }
-      p { 
-        color: $text-grey;
-        font-size: 1.2rem; 
-        margin: 0;
-      }
-
-      li {
-        padding-left: calc(0.75 * #{$gap});
-        &::marker {
-          content: '—';
-          content: '→';
-          background: hsl(200 20% 88%);
-          // color: hotpink;
-          margin: 1rem;
-        }
-      }
     }
 
     .logos {
@@ -82,9 +65,5 @@
   // background-image: url('/img/images/AdobeStock_504342235_1000_MozJPEG-crop.jpg');
   // background-position: center;
   // background-repeat: no-repeat;
-  // background-size: cover;
-
-
-  
+  // background-size: cover; 
 }
-

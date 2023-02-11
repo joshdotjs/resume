@@ -1,10 +1,11 @@
 const template = document.createElement('template');
 template.innerHTML = `
-  <div class="section-3__project-3 card">
+  <div class="section-3__project-3 project shadow">
 
     <div class="left">
-      <h5>Full Stack Project 3</h5>
-      <p>Custom eCommerce Store</p>
+     
+      <h3>Full Stack Project 3</h3>
+      <h4>Custom eCommerce Store</h4>
       
       <ul>
         <li>Frontend: Custom WordPress Theme (with React)</li>

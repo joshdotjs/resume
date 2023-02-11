@@ -1,7 +1,7 @@
 const innerHTML = `
   <style>
     .svg-youtube {
-      background: lightgreen;
+      /* background: lightgreen; */
     }
   </style>
   <svg 

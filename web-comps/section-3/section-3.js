@@ -1,6 +1,6 @@
 const template = document.createElement('template');
 template.innerHTML = `
-  <section class="section-3">
+  <section class="section-3 card shadow">
 
     <h2>Portfolio</h2>
 

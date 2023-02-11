@@ -1,10 +1,10 @@
 const template = document.createElement('template');
 template.innerHTML = `
-  <div class="section-3__project-1 card">
+  <div class="section-3__project-1 project shadow">
     <div class="left">
 
-      <h5>Full Stack Project 1</h5>
-      <p>Custom eCommerce Store</p>
+      <h3>Full Stack Project 1</h3>
+      <h4>Custom eCommerce Store</h4>
       
       <ul>
         <li>Frontend: React</li>

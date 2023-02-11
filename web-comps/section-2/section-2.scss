@@ -4,17 +4,30 @@
 
 
 .section-2 {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  // justify-content: space-between;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(8, 10px);
+  gap: $gap;
+
+  padding: 0;
 
   > div {
     padding: $gap;
     // background: red;  
   }
 
-  // &__left, 
-  // &__middle,
-  // &__right {
-  //   background: red;
-  // }
+  &__left {
+    grid-column: 1 / 6;
+    grid-row: 1 / 10;
+  }
+  &__right {
+    grid-column: 5 / 10;
+    grid-row: 2 / 8;
+  }
+  &__middle {
+    grid-column: 11 / -1;
+    grid-row: 1 / 10;
+  }
+
 }
