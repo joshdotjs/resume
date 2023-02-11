@@ -10,24 +10,21 @@
   grid-template-rows: repeat(8, 10px);
   gap: $gap;
 
-  padding: 0;
-
-  > div {
-    padding: $gap;
-    // background: red;  
-  }
-
   &__left {
     grid-column: 1 / 6;
     grid-row: 1 / 10;
   }
+
+  &__middle {
+    grid-column: 11 / -1;
+    grid-row: 1 / 9;
+  }
+  
   &__right {
     grid-column: 5 / 10;
     grid-row: 2 / 8;
-  }
-  &__middle {
-    grid-column: 11 / -1;
-    grid-row: 1 / 10;
+    background: $bg-blue;
+    // transform: rotate(5deg);
   }
 
 }

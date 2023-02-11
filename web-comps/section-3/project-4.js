@@ -13,8 +13,6 @@ template.innerHTML = `
         <li>Embedded Lottie file animations</li>
         <li>Embedded Adobe After Effects animations</li>
         <li>Scroll based animations with both GSAP Scrolltrigger and native </li>
-        <li>Deployed to Vercel</li>
-        <li>Lighthouse score: </li>
       </ul>
     </div>
 
@@ -32,7 +30,7 @@ template.innerHTML = `
     <div class="demo-links">
 
       <div class="demo-link">
-        <wc-link href="https://www.hollowayJosh.com/">Live Demo - hollowayJosh.com</wc-link>
+        <wc-link href="https://www.hollowayJosh.com/">Live Demo</wc-link>
       </div>
 
       <div class="demo-link">

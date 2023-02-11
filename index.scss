@@ -15,6 +15,7 @@ main {
   border: solid black 1px; 
   border-radius: $radius;
   background: $bg-grey;
+  padding: calc(1.5 * #{$gap});
 }
 
 section {
@@ -103,4 +104,5 @@ a {
   font-size: 1rem;
   font-weight: 400;
   // background: blue;
+  color: $text-blue;
 }

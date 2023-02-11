@@ -13,7 +13,6 @@ template.innerHTML = `
         <li>Custom SQL database tables</li>
         <li>Custom PHP plugin for custom REST endpoints to talk to the database via HTTP requests from React using the native JavaScript fetch API</li>
         <li>Cookie based authentication for login/registration and restricted routes for authenticated users/admins</li>
-        <li>Deployed to Hostinger</li>
       </ul>
     </div>
 
@@ -27,7 +26,7 @@ template.innerHTML = `
     <div class="demo-links">
 
       <div class="demo-link">
-        <wc-link href="https://www.wp-web-app.com/">Live Demo — wp-web-app.com</wc-link>
+        <wc-link href="https://www.wp-web-app.com/">Live Demo</wc-link>
       </div>
 
       <div class="demo-link">

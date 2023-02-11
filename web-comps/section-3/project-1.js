@@ -15,15 +15,13 @@ template.innerHTML = `
         <li>Admin-facing dashboard for product and order logistics</li>
         <li>Stripe credit card transactions including Buy Now Pay Later (BNPL) with Klarna using web-hooks to update the status of orders</li>
         <li>Custom server-side rendering (SSR) by rendering a subset of products on the initial page load – subsequent product retrieval via AJAX requests after the page has been hydrated with JavaScript – this is good for SEO and initial page load speed</li>
-        <li>JWT-authentication using local storage</li>
+        <li>JWT based authentication using local storage</li>
         <li>Cryptographically hashed passwords via Bcrypt for secure login/registration</li>
-        <li>Deployed to Linode</li>
-        <li>Lighthouse score:</li>
       </ul>
     </div>
 
     <div class="logos top">
-      <img class="logo" src="/img/logos/react.svg" />
+      <img class="logo" src="/img/logos/react.svg"  />
       <img class="logo" src="/img/logos/gsap.svg" />
       <img class="logo" src="/img/logos/laravel.svg"/>
       <img class="logo" src="/img/logos/mysql.svg"/>

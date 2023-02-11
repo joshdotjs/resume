@@ -12,7 +12,6 @@ template.innerHTML = `
         <li>PostgresSQL database</li>
         <li>Frontend deployed to Vercel</li>
         <li>Backend deployed to Heroku</li>
-        <li>Lighthouse score:	</li>
       </ul>
     </div>
 
@@ -25,7 +24,7 @@ template.innerHTML = `
     <div class="demo-links">
 
       <div class="demo-link">
-        <wc-link href="https://www.php-web-app.com/">Live Demo — php-web-app.com</wc-link>
+        <wc-link href="https://www.php-web-app.com/">Live Demo</wc-link>
       </div>
 
       <div class="demo-link">

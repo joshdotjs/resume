@@ -35,12 +35,21 @@ template.innerHTML = `
     </div>
 
     <div class="section-2__right card shadow">
-      <h2>Portfolio Summary</h2>
+      <h2>Demo Projects</h2>
       <ul>
-        <li><a href="https://www.php-web-app.com/">php-web-app.com</a></li>
-        <li><a href="https://www.node-web-app.com/">node-web-app.com</a></li>
-        <li><a href="https://wp-web-app.com/">wp-web-app.com</a></li>
-        <!-- <li><a href="http://shopify-web-app.com/">shopify-web-app.com/</a></li> -->
+
+        <div class="demo-link">
+          <wc-link href="https://www.php-web-app.com/">php-web-app.com</wc-link>
+        </div>
+
+        <div class="demo-link">
+          <wc-link href="https://www.php-web-app.com/">node-web-app.com</wc-link>
+        </div>
+
+        <div class="demo-link">
+          <wc-link href="https://www.php-web-app.com/">wp-web-app.com</wc-link>
+        </div>
+        
       </ul>
     </div>
   </section>

@@ -4,9 +4,11 @@
 
 
 .section-3 {
-  // background: $bg-blue;
-  padding: $gap;
   margin-bottom: 0;
+
+  h2 { // override the main h2 to make a little bigger due to the sub-card below the heading in this section
+    margin-bottom: calc(1 * #{$gap});
+  }
 
   &__project-1,
   &__project-2,
@@ -29,7 +31,7 @@
     
     .left {
       grid-row: 1 / -1; 
-      border: dashed rgba(0, 0, 0, 0.1) 1px;
+      // border: dashed rgba(0, 0, 0, 0.1) 1px;
       // background: lightblue;
     }
 
