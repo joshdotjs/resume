@@ -1,0 +1,10 @@
+@use '../../scss/vars' as *;
+
+#web-comp {
+  color: $text-blue;
+  // display: block;
+  text-decoration: none;
+  svg {
+    margin-right: calc(0.35 * #{$gap});
+  }
+}

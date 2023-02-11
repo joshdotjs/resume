@@ -1,0 +1,22 @@
+{
+  "files.exclude": {
+    "**/*.css": true,
+    "**/*.css.map": true,
+    "**/css": true,
+    "package-lock.json": true,
+    "node_modules": true,
+    ".gitignore": true,
+    // "favicon.ico": true,
+    "netlify.toml": true,
+    ".netlify": true,
+
+  },
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".css",
+      "savePath": "~/css",
+      "savePathReplacementPairs": null
+    }
+  ],
+}
