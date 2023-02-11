@@ -23,21 +23,7 @@ section:not(:last-child) { position: relative;
 }
 
 
-.section-2 {
-  display: flex;
-  justify-content: space-between;
 
-  > div {
-    padding: $gap;
-    // background: red;  
-  }
-
-  // &__left, 
-  // &__middle,
-  // &__right {
-  //   background: red;
-  // }
-}
 
 .section-3 {
   background: $bg-blue;

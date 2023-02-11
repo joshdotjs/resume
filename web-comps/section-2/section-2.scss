@@ -1,0 +1,20 @@
+@forward '../../scss/reset';
+@forward '../../scss/fonts';
+@use '../../scss/vars' as *;
+
+
+.section-2 {
+  display: flex;
+  justify-content: space-between;
+
+  > div {
+    padding: $gap;
+    // background: red;  
+  }
+
+  // &__left, 
+  // &__middle,
+  // &__right {
+  //   background: red;
+  // }
+}
