@@ -1,0 +1,70 @@
+@forward '../../scss/reset';
+@forward '../../scss/fonts';
+@use '../../scss/vars' as *;
+
+
+.section-1 { margin-bottom: $gap;
+  display: flex;
+  justify-content: space-between;
+
+  &__left {
+    // background: red;
+    // text-align: center;
+
+    h1 { 
+      font-size: 2rem;
+      font-weight: 500;
+      margin: 0;
+      margin-bottom: calc(0.5 * #{$gap});
+    }
+
+    h2 { 
+      font-size: 1.5rem; 
+      font-weight: 400;
+      margin: 0;
+      margin-bottom: calc(0.5 * #{$gap});
+    }
+    
+    > :last-child { 
+      // background: yellow;
+      height: 1rem;
+      margin: 0;
+
+      a {
+        display: flex;
+        // background: red;
+        font-size: 1rem;
+        .svg-mail { 
+          // background: orange;
+          height: 100%;
+         }
+
+        span {
+          margin-left: 0.75rem;
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+  }
+  &__right {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    > :first-child {
+      display: flex;
+      justify-content: space-between;
+
+      svg {
+        $height: 30px;
+        height: $height;
+        width: $height;
+        // background: red;
+      }
+    }
+    > :last-child  {
+    }
+  }
+}

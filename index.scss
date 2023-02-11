@@ -17,64 +17,11 @@ main {
 
 section {
   padding: $gap;
-  background: $bg-blue;
 }
 section:not(:last-child) { position: relative;
   margin-bottom: $gap;
 }
 
-.section-1 {
-  display: flex;
-  justify-content: space-between;
-
-  &__left {
-    // background: red;
-    // text-align: center;
-
-    h1 { 
-      font-size: 2rem;
-      font-weight: 500;
-    }
-    h2 { 
-      font-size: 1.6rem; 
-      font-weight: 400;
-    }
-    > :last-child { 
-      // background: yellow;
-      height: 1rem;
-
-      a {
-        display: flex;
-        align-items: center;
-        height: 100%;
-        // background: red;
-        font-size: 1rem;
-        svg { 
-          height: 100%;
-        }
-        span {
-          margin-left: 0.75rem;
-        }
-      }
-    }
-  }
-  &__right {
-    background: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-
-
-    > :first-child {
-      display: flex;
-      justify-content: space-between;
-    }
-    > :last-child  {
-
-    }
-  }
-}
 
 .section-2 {
   display: flex;
@@ -93,12 +40,7 @@ section:not(:last-child) { position: relative;
 }
 
 .section-3 {
-  // &__project-1,
-  // &__project-2,
-  // &__project-3,
-  // &__project-4,
-  // &__project-5 {
-  // }
+  background: $bg-blue;
 
   .card {
     display: grid;
@@ -106,13 +48,13 @@ section:not(:last-child) { position: relative;
     grid-template-rows:    auto 1fr;
     gap: $gap;
     padding: $gap;
-    background: lightgreen;
+    // background: lightgreen;
     &:not(:last-child) { margin-bottom: $gap; }
     
     .left {
       grid-row: 1 / -1; 
-      // border: solid red 10px;
-      background: lightblue;
+      border: dashed rgba(0, 0, 0, 0.1) 1px;
+      // background: lightblue;
 
       h5 { 
         font-size: 2rem; 
@@ -143,12 +85,12 @@ section:not(:last-child) { position: relative;
       grid-column: 2 / -1;
       // border: solid green 10px;
       display: flex;
-      justify-content: space-evenly;
+      // justify-content: space-evenly;
       .logo {
         height: 50px;
-        // &:not(:last-child) {
-        //   margin-right: 2rem;
-        // }  
+        &:not(:last-child) {
+          margin-right: 1.5rem;
+        }  
       }
     }
 
@@ -159,6 +101,7 @@ section:not(:last-child) { position: relative;
       .demo-link {
         // background: lightblue;
         margin: $gap;
+        margin-left: 0;
       }
     }
   }
