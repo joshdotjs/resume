@@ -20,6 +20,7 @@ template.innerHTML = `
       <img class="logo" src="/img/logos/js.svg" style="border-radius: 5px;"/>
       <img class="logo" src="/img/logos/gsap.svg" />
       <img class="logo" src="/img/logos/sass.svg"/>
+      <img class="logo" src="/img/logos/web-comps.svg"/>
     </div>
 
     <div class="demo-links">
