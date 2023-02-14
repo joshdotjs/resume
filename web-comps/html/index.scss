@@ -1,12 +1,17 @@
 @use '../../scss/vars' as *;
 
-pre code {
-  background-color: black;
-  border: 1px solid #999;
-  display: block;
-  border-radius: $radius;
-  overflow: hidden;
-  padding: 1rem;
+
+
+pre {
+  margin: 0;
+  code { 
+    background-color: black;
+    display: block;
+    border-radius: $radius;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    overflow: hidden;
+    padding: 1rem;
+  }
 }
 .html { color: #E16D75; }
 .lt, .gt { color: #ABB2BF; }

@@ -12,14 +12,9 @@ template.innerHTML = `
         <li>Custom smooth scrolling and parallax effect with JavaScript (no library)</li>
         <li>Embedded Lottie file animations</li>
         <li>Embedded Adobe After Effects animations</li>
-        <li>Scroll based animations with both GSAP Scrolltrigger and native </li>
+        <li>Scroll based animations with both GSAP Scrolltrigger and the native JavaScript Intersection Observer API </li>
       </ul>
     </div>
-
-    <!-- <div style="display: inline-block;">
-      <p>Native HTML:</p>
-      <wc-html></wc-html>
-    </div> -->
 
     <div class="logos top">
       <img class="logo" src="/img/logos/js.svg" style="border-radius: 5px;"/>

@@ -3,11 +3,11 @@ template.innerHTML = `
   <div class="section-3__project-1 project shadow">
     <div class="left">
 
-      <h3>Full Stack Project 1</h3>
+      <h3>Featured Full Stack Project 1</h3>
       <h4>Custom eCommerce Store</h4>
       
       <ul>
-        <li>Frontend: React</li>
+        <li>Frontend: React with Vite</li>
         <li>Backend: Laravel</li>
         <li>All animations are custom built using advanced GSAP techniques</li>
         <li>Custom CSS</li>
@@ -21,10 +21,10 @@ template.innerHTML = `
     </div>
 
     <div class="logos top">
-      <img class="logo" src="/img/logos/react.svg"  />
-      <img class="logo" src="/img/logos/gsap.svg" />
-      <img class="logo" src="/img/logos/laravel.svg"/>
-      <img class="logo" src="/img/logos/mysql.svg"/>
+      <img class="logo" src="/img/logos/react.svg" />
+      <img class="logo" src="/img/logos/laravel.svg" />
+      <img class="logo" src="/img/logos/mysql.svg" />
+      <img class="logo" src="/img/logos/vite.svg" />
     </div>
 
     <div class="demo-links">

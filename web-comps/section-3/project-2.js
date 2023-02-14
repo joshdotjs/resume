@@ -8,6 +8,7 @@ template.innerHTML = `
       <ul>
         <li>Frontend: Next.js</li>
         <li>Backend: Node.js</li>
+        <li>All the features of the featured project</li>
         <li>Uses Incremental Static Regeneration (ISR) updated every 5 minutes</li>
         <li>PostgresSQL database</li>
         <li>Frontend deployed to Vercel</li>
@@ -19,6 +20,8 @@ template.innerHTML = `
       <img class="logo" src="/img/logos/next.svg"/>
       <img class="logo" src="/img/logos/node-2.svg"/>
       <img class="logo" src="/img/logos/postgres.svg"/>
+      <!-- <img class="logo" src="/img/logos/express.png"/> -->
+      <img class="logo" src="/img/logos/gsap.svg"/>
     </div>
 
     <div class="demo-links">

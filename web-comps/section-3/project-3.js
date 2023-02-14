@@ -8,8 +8,9 @@ template.innerHTML = `
       <h4>Custom eCommerce Store</h4>
       
       <ul>
-        <li>Frontend: Custom WordPress Theme (with React)</li>
-        <li>Backend: Custom WordPress Plugin (with PHP)</li>
+        <li>Frontend: Custom WordPress Theme (React with WebPack)</li>
+        <li>Backend: Custom WordPress Plugin (PHP)</li>
+        <li>All the features of the featured project</li>
         <li>Custom SQL database tables</li>
         <li>Custom PHP plugin for custom REST endpoints to talk to the database via HTTP requests from React using the native JavaScript fetch API</li>
         <li>Cookie based authentication for login/registration and restricted routes for authenticated users/admins</li>
@@ -20,7 +21,8 @@ template.innerHTML = `
       <img class="logo" src="/img/logos/react.svg"/>
       <img class="logo" src="/img/logos/php-2.svg"/>
       <img class="logo" src="/img/logos/wp.svg"/>
-      <img class="logo" src="/img/logos/mysql.svg"/>
+      <!-- <img class="logo" src="/img/logos/mysql.svg"/> -->
+      <img class="logo" src="/img/logos/webpack-2.svg"/>
     </div>
 
     <div class="demo-links">

@@ -1,6 +1,6 @@
 const template = document.createElement('template');
 template.innerHTML = `
-  <div class="section-3__project-5 project shadow">
+  <div class="section-3__project-5 project shadow fuck">
 
     <div class="left">
       
@@ -8,11 +8,17 @@ template.innerHTML = `
       <h4>Resume (this document)</h4>
         
       <ul>
-        <li>Native HTML with Web Components</li>
         <li>Custom CSS</li>
+        <li>Native HTML</li>
+        <li>Web Components</li>
+        <li>Zero Libraries</li>
       </ul>
       
     </div>
+
+    <!-- <div class="code-snippet" style="background: lightblue;">
+      <wc-html></wc-html>
+    </div> -->
 
     <div class="logos">
       <img class="logo" src="/img/logos/html.svg"/>
