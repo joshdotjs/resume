@@ -33,12 +33,12 @@
       grid-column: 2 / -1;
       // border: solid green 10px;
       display: flex;
-      // justify-content: space-evenly;
+      justify-content: space-evenly;
       .logo {
         height: 50px;
-        &:not(:last-child) {
-          margin-right: 1.5rem;
-        }  
+      //   &:not(:last-child) {
+      //     margin-right: 1.5rem;
+      //   }  
       }
     }
 
