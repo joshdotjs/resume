@@ -11,6 +11,7 @@ template.innerHTML = `
         <li>Custom CSS</li>
         <li>Native HTML</li>
         <li>Web Components</li>
+        <li>Responsive (as always)</li>
         <li>Zero libraries</li>
       </ul>
       
