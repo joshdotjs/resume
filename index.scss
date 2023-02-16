@@ -4,6 +4,7 @@
 @use './scss/shadow' as *;
 
 main {
+  opacity: 0;
   padding: $gap;
   max-width: 1000px;
   min-width: 300px;
