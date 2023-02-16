@@ -16,7 +16,7 @@ template.innerHTML = `
       </ul>
     </div>
 
-    <div class="section-2__middle card shadow">
+    <div class="section-2__right card shadow">
       <h2>Relevant Education</h2>
       <ul>
         <li>Full Stack Web Development Certificate</li>
@@ -34,7 +34,7 @@ template.innerHTML = `
 
     </div>
 
-    <div class="section-2__right card shadow">
+    <div class="section-2__middle card shadow">
       <h2>Demo Projects</h2>
       <ul>
 

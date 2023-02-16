@@ -1,6 +1,7 @@
 @forward '../../scss/reset';
 @forward '../../scss/fonts';
 @use '../../scss/vars' as *;
+@use '../../scss/mixins' as *;
 
 
 .section-2 {
@@ -9,21 +10,41 @@
   // grid-template-rows: repeat(20, auto);
   // gap: $gap;
 
+
+  // Mobile:
   &__left {
-    grid-column: 1 / 6;
+    grid-column: 1 / -2;
     grid-row: 1 / 20;
   }
 
-  &__middle {
-    grid-column: 11 / -1;
-    grid-row: 1 / 18;
-  }
+  &__middle { display: none;}
   
   &__right {
-    grid-column: 5 / 10;
-    grid-row: 3 / 15;
-    background: $bg-blue;
-    // transform: rotate(5deg);
+    grid-column: 2 / -1;
+    grid-row: 19 / 40;
+  }
+  
+
+  // Desktop:
+  @include lg {
+    &__left {
+      grid-column: 1 / 6;
+      grid-row: 1 / 20;
+    }
+   
+    &__middle {
+      display: block;
+      grid-column: 5 / 10;
+      grid-row: 3 / 15;
+      background: $bg-blue;
+      // transform: rotate(5deg);
+    }
+
+    &__right {
+      grid-column: 11 / -1;
+      grid-row: 1 / 18;
+    }
+    
   }
 
 }
