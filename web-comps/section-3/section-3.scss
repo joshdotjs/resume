@@ -1,6 +1,7 @@
 @forward '../../scss/reset';
 @forward '../../scss/fonts';
 @use '../../scss/vars' as *;
+@use '../../scss/mixins' as *;
 
 
 .section-3 {
@@ -36,9 +37,12 @@
       justify-content: space-between;
       .logo {
         height: 50px;
-      //   &:not(:last-child) {
-      //     margin-right: 1.5rem;
-      //   }  
+
+        display: none;
+        &:nth-child(1) { @include sm { display: inline; } }
+        &:nth-child(2) { @include md { display: inline; } }
+        &:nth-child(3) { @include lg { display: inline; } }
+        &:nth-child(4) { @include xl { display: inline; } }
       }
 
       &.three-logos {
