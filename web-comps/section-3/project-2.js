@@ -27,16 +27,17 @@ template.innerHTML = `
     <div class="demo-links">
 
       <div class="demo-link">
-        <wc-link href="https://www.php-web-app.com/">Live Demo</wc-link>
+        <wc-link href="https://www.node-web-app.com">Live Demo</wc-link>
       </div>
 
       <div class="demo-link">
-        <wc-link href="https://github.com/joshdotjs/">Code</wc-link>
+        <wc-link href="https://github.com/joshdotjs/node-web-app.com-frontend">Frontend Code</wc-link>
       </div>
 
       <div class="demo-link">
-        <wc-link href="">Video</wc-link>
+        <wc-link href="https://github.com/joshdotjs/node-web-app.com-backend">Backend Code</wc-link>
       </div>
+
     </div>
   </div>
 `;

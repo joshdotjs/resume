@@ -26,11 +26,11 @@ template.innerHTML = `
     <div class="demo-links">
 
       <div class="demo-link">
-        <wc-link href="https://www.hollowayJosh.com/">Live Demo</wc-link>
+        <wc-link href="https://joshDotJS.com">Live Demo</wc-link>
       </div>
 
       <div class="demo-link">
-        <wc-link href="https://github.com/joshdotjs/">Code</wc-link>
+        <wc-link href="https://github.com/joshdotjs/portfolio">Code</wc-link>
       </div>
 
     </div>

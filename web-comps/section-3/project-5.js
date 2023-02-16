@@ -20,19 +20,20 @@ template.innerHTML = `
       <wc-html></wc-html>
     </div> -->
 
-    <div class="logos">
+    <div class="logos three-logos">
       <img class="logo" src="/img/logos/html.svg"/>
+      <img class="logo" src="/img/logos/web-comps-2.svg"/>
+      <!-- <img class="logo" src="/img/logos/web-comps-3.svg"/> -->
       <img class="logo" src="/img/logos/css.svg"/>
-      <img class="logo" src="/img/logos/web-comps-3.svg"/>
     </div>
 
     <div class="demo-links">
       <div class="demo-link">
-        <wc-link href="https://www.hollowayJosh.com/resume">Live Demo</wc-link>
+        <wc-link href="https://hollowayJosh.com">Live Demo</wc-link>
       </div>
 
       <div class="demo-link">
-        <wc-link href="https://github.com/joshdotjs/">Code</wc-link>
+        <wc-link href="https://github.com/joshdotjs/resume">Code</wc-link>
       </div>
 
     </div>

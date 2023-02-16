@@ -39,15 +39,15 @@ template.innerHTML = `
       <ul>
 
         <div class="demo-link">
-          <wc-link href="https://www.php-web-app.com/">php-web-app.com</wc-link>
+          <wc-link href="https://www.php-web-app.com">php-web-app.com</wc-link>
         </div>
 
         <div class="demo-link">
-          <wc-link href="https://www.php-web-app.com/">node-web-app.com</wc-link>
+          <wc-link href="https://www.node-web-app.com">node-web-app.com</wc-link>
         </div>
 
         <div class="demo-link">
-          <wc-link href="https://www.php-web-app.com/">wp-web-app.com</wc-link>
+          <wc-link href="https://www.wp-web-app.com">wp-web-app.com</wc-link>
         </div>
         
       </ul>

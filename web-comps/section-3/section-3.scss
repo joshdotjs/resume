@@ -40,6 +40,14 @@
       //     margin-right: 1.5rem;
       //   }  
       }
+
+      &.three-logos {
+        justify-content: flex-start;
+        // background: red;
+        .logo:not(:last-child) {
+            margin-right: 2rem;
+          }  
+      }
     }
 
     .demo-links {

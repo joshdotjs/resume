@@ -28,15 +28,11 @@ template.innerHTML = `
     <div class="demo-links">
 
       <div class="demo-link">
-        <wc-link href="https://www.wp-web-app.com/">Live Demo</wc-link>
+        <wc-link href="https://www.wp-web-app.com">Live Demo</wc-link>
       </div>
 
       <div class="demo-link">
-        <wc-link href="https://github.com/joshdotjs/">Code</wc-link>
-      </div>
-
-      <div class="demo-link">
-        <wc-link href="">Video</wc-link>
+        <wc-link href="https://github.com/joshdotjs/wp-web-app.com">Code</wc-link>
       </div>
 
     </div>

@@ -30,15 +30,21 @@ template.innerHTML = `
     <div class="demo-links">
 
       <div class="demo-link">
-        <wc-link href="https://www.php-web-app.com/">Live Demo</wc-link>
+        <wc-link href="https://www.php-web-app.com">Live Demo</wc-link>
       </div>
 
       <div class="demo-link">
-        <wc-link href="https://github.com/joshdotjs/josh.js">Code</wc-link>
+        <wc-link href="https://github.com/joshdotjs/php-web-app.com">Code</wc-link>
       </div>
 
       <div class="demo-link">
+        <!-- TODO -->
+        <!-- TODO -->
+        <!-- TODO -->
         <wc-link href="">Video</wc-link>
+        <!-- TODO -->
+        <!-- TODO -->
+        <!-- TODO -->
       </div>
     </div>
 

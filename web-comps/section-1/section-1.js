@@ -7,7 +7,6 @@ template.innerHTML = `
         <h5>
           <a href="">
             <svg-mail></svg-mail>
-            <!-- <span>josh@josh.js</span> -->
             <span>joshDotJS@gmail.com</span>
           </a>
         </h5>
@@ -28,7 +27,7 @@ template.innerHTML = `
           </h5>
         </div>
 
-        <a class="website-link" href="">hollowayJosh.com</a>
+        <a class="website-link" href="https://joshDotJS.com">joshDotJS.com</a>
       </div>
     </section>
 `;
