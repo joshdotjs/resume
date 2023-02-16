@@ -7,7 +7,7 @@ template.innerHTML = `
         <h5>
           <a href="">
             <svg-mail></svg-mail>
-            <span>joshDotJS@gmail.com</span>
+            <span><a href="mailto: joshdotjs@gmail.com">joshDotJS@gmail.com</a></span>
           </a>
         </h5>
       </div>
