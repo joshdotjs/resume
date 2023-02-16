@@ -23,11 +23,10 @@
     border: solid black 1px;
     border-radius: $radius;
     
-    .left { background: lightblue;
-      // border: dashed rgba(0, 0, 0, 0.1) 1px;
+    .left {
     }
 
-    .logos { background: lightgreen;
+    .logos {
       // border: solid green 10px;
       display: flex;
       justify-content: space-between;
@@ -53,11 +52,12 @@
       }
     }
 
-    .demo-links { background: lightpink;
+    .demo-links { 
       // border: solid darkorange 5px;
       .demo-link {
         // background: lightblue;
-        margin: $gap;
+        &:not(:last-child) { margin-bottom: calc(0.5 * #{$gap}); }
+        @include sm { margin: $gap; }
         margin-left: 0;
       }
     }
@@ -66,9 +66,15 @@
     // --------------------------------------------
 
     // Mobile
-    .left {}
+    .left {
+      grid-row: 1 / 2; 
+      grid-column: 1 / -1;
+    }
     .logos { display: none; }
-    .demo-links {}
+    .demo-links {
+      grid-row: 2 / 3;
+      grid-column: 1 / -1;
+    }
 
     // --------------------------------------------
 
@@ -76,6 +82,7 @@
     @include sm {
       .left {
         grid-row: 1 / -1; 
+        grid-column: 1 / 2;
       }
       .logos {
         display: flex;
@@ -89,6 +96,11 @@
     }
 
     // --------------------------------------------
+
+    // DEBUG: 
+    // .left {  background: lightblue;     }
+    // .logos { background: lightgreen;    }
+    // .demo-links {background: lightpink; }
 
   }
 
