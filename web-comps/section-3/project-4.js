@@ -8,11 +8,11 @@ template.innerHTML = `
       <ul>
         <li>Vanilla JavaScript</li>
         <li>Custom CSS</li>
-        <li>Custom Single Page App (no SPA library or framework) including custom SPA routing built with programattic URL route changes and local storage for persistent state between page refreshes</li>
+        <li>Custom single page app (no SPA library or framework) including custom SPA routing built with programmatic URL route changes and local storage for persistent state between page refreshes</li>
         <li>Custom smooth scrolling and parallax effect with JavaScript (no library)</li>
         <li>Embedded Lottie file animations</li>
         <li>Embedded Adobe After Effects animations</li>
-        <li>Scroll based animations with both GSAP Scrolltrigger and the native JavaScript Intersection Observer API </li>
+        <li>Scroll based animations with both GSAP Scrolltrigger and the native JavaScript Intersection Observer API</li>
       </ul>
     </div>
 

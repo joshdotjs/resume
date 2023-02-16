@@ -5,6 +5,8 @@
 
 main {
   opacity: 0;
+  transform-origin: center;
+
   padding: $gap;
   max-width: 1000px;
   min-width: 300px;

@@ -2,7 +2,7 @@ const template = document.createElement('template');
 template.innerHTML = `
   <section class="section-2">
     <div class="section-2__left card shadow">
-      <h2>Relavent Skills</h2>
+      <h2>Relevant Skills</h2>
       <ul>
         <li>React / Next.js</li>
         <li>JavaScript</li>
