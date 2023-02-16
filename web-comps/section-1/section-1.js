@@ -5,9 +5,9 @@ template.innerHTML = `
         <h1>Josh Holloway</h1>
         <h2>Web Developer</h2>
         <h5>
-          <a href="">
+          <a href="mailto: joshdotjs@gmail.com">
             <svg-mail></svg-mail>
-            <span><a href="mailto: joshdotjs@gmail.com">joshDotJS@gmail.com</a></span>
+            <span>joshDotJS@gmail.com</span>
           </a>
         </h5>
       </div>
