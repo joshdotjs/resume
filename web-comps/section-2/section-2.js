@@ -9,7 +9,7 @@ template.innerHTML = `
         <li>CSS / SCSS</li>
         <li>GSAP</li>
         <li>Node.js / Express</li>
-        <li>PHP / Laravel</li>
+        <li>PHP / Laravel / WP</li>
         <li>SQL</li>
         <li>HTML / Web Components</li>
 
