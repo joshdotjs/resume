@@ -38,13 +38,7 @@ template.innerHTML = `
       </div>
 
       <div class="demo-link">
-        <!-- TODO -->
-        <!-- TODO -->
-        <!-- TODO -->
-        <wc-link href="">Video</wc-link>
-        <!-- TODO -->
-        <!-- TODO -->
-        <!-- TODO -->
+        <wc-link href="https://www.joshdotjs.com/videos/ecommerce/2023">Video</wc-link>
       </div>
     </div>
 
