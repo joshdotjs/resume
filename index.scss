@@ -81,7 +81,6 @@ ul {
     padding-left: calc(0.5 * #{$gap});
     font-size: 0.9rem;
     &::marker {
-      content: '—';
       content: '→';
       background: hsl(200 20% 88%);
       // color: hotpink;
@@ -91,8 +90,6 @@ ul {
     ul.level-2 {
      li {
       &::marker {
-        content: '—';
-        // content: '→';
         content: '⇒';
         background: hsl(200 20% 88%);
         // color: hotpink;

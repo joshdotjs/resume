@@ -1,9 +1,0 @@
-{
-  "main": "index.js",
-  "scripts": {
-    "deploy": "ntl deploy --prod"
-  },
-  "dependencies": {
-    "html2canvas": "^1.4.1"
-  }
-}
