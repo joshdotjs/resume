@@ -16,18 +16,18 @@ template.innerHTML = `
 
         <div class="socials">
           <h5>
-            <a href="https://www.youtube.com/@JHolloway">
+            <a href="https://www.youtube.com/@JHolloway" target="_blank">
               <svg-youtube></svg-youtube>
             </a>
           </h5>
           <h5>
-            <a href="https://github.com/joshdotjs">
+            <a href="https://github.com/joshdotjs" target="_blank">
               <svg-github></svg-github>
             </a>
           </h5>
         </div>
 
-        <a class="website-link" href="https://joshDotJS.com">joshDotJS.com</a>
+        <a class="website-link" href="https://joshDotJS.com" target="_blank">joshDotJS.com</a>
       </div>
     </section>
 `;
