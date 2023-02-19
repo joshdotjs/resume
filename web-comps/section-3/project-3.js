@@ -12,7 +12,7 @@ template.innerHTML = `
         <li>Backend: Custom WordPress Plugin (PHP)</li>
         <li>All the features of the featured project</li>
         <li>Custom SQL database tables</li>
-        <li>Custom PHP plugin for custom REST endpoints to talk to the database via HTTP requests from React using the native JavaScript fetch API</li>
+        <li>Custom REST endpoints to talk to the database via HTTP requests from React using the native JavaScript fetch API</li>
         <li>Cookie based authentication for login/registration and restricted routes for authenticated users/admins</li>
       </ul>
     </div>
