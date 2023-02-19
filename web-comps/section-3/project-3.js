@@ -28,7 +28,7 @@ template.innerHTML = `
     <div class="demo-links">
 
       <div class="demo-link">
-        <wc-link href="https://www.wp-web-app.com">Live Demo</wc-link>
+        <wc-link href="https://www.wp-web-app.com">wp-web-app.com</wc-link>
       </div>
 
       <div class="demo-link">

@@ -18,7 +18,18 @@
     grid-row: 1 / 20;
   }
 
-  &__middle { display: none;}
+  &__middle { 
+    display: none;
+    .demo-link {
+      &:not(:last-child) { 
+        // background: lightblue;
+        @include sm { 
+          margin-bottom: calc(0.5 * #{$gap}); 
+        }
+      }
+      margin-left: 0;
+    }
+  }
   
   &__right {
     grid-column: 2 / -1;

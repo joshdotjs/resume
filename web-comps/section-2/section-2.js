@@ -35,7 +35,7 @@ template.innerHTML = `
     </div>
 
     <div class="section-2__middle card shadow">
-      <h2>Demo Projects</h2>
+      <h2>Demo Highlights</h2>
       <ul>
 
         <div class="demo-link">
@@ -43,11 +43,11 @@ template.innerHTML = `
         </div>
 
         <div class="demo-link">
-          <wc-link href="https://www.node-web-app.com">node-web-app.com</wc-link>
+          <wc-link href="https://joshDotJS.com">joshDotJS.com</wc-link>
         </div>
 
         <div class="demo-link">
-          <wc-link href="https://www.wp-web-app.com">wp-web-app.com</wc-link>
+          <wc-link href="https://hollowayJosh.com">HollowayJosh.com</wc-link>
         </div>
         
       </ul>

@@ -27,7 +27,7 @@ template.innerHTML = `
     <div class="demo-links">
 
       <div class="demo-link">
-        <wc-link href="https://www.node-web-app.com">Live Demo</wc-link>
+        <wc-link href="https://www.node-web-app.com">node-web-app.com</wc-link>
       </div>
 
       <div class="demo-link">

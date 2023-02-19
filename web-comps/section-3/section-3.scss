@@ -18,7 +18,7 @@
     grid-template-columns: 60% 1fr;
     grid-template-rows:    auto 1fr;
     gap: $gap;
-    padding: $gap;
+    padding: calc(1.5 * #{$gap});
     // background: lightgreen;
     border: solid black 1px;
     border-radius: $radius;
@@ -59,9 +59,12 @@
     .demo-links { 
       // border: solid darkorange 5px;
       .demo-link {
-        // background: lightblue;
-        &:not(:last-child) { margin-bottom: calc(0.5 * #{$gap}); }
-        @include sm { margin: $gap; }
+        &:not(:last-child) { 
+          // background: lightblue;
+          @include sm { 
+            margin-bottom: calc(0.75 * #{$gap}); 
+          }
+        }
         margin-left: 0;
       }
     }

@@ -13,7 +13,8 @@ background: linear-gradient(to right, darkorange 0%, limegreen 100%);
       <ul>
         <li>Frontend: React with Vite</li>
         <li>Backend: Laravel</li>
-        <li>All animations are custom built using advanced GSAP techniques</li>
+        <li>Animations are custom built – most use advanced GSAP techniques</li>
+        <li>Embedded Adobe After Effects custom loading animation</li>
         <li>Mostly custom CSS (with some Tailwind)</li>
         <li>User-facing storefront for customers to view/filter/sort products, place items in an interactive shopping cart and place orders with an online payment system</li>
         <li>Admin-facing dashboard for product and order logistics</li>
@@ -34,7 +35,7 @@ background: linear-gradient(to right, darkorange 0%, limegreen 100%);
     <div class="demo-links">
 
       <div class="demo-link">
-        <wc-link href="https://www.php-web-app.com">Live Demo</wc-link>
+        <wc-link href="https://www.php-web-app.com">php-web-app.com</wc-link>
       </div>
 
       <div class="demo-link">
