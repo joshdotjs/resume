@@ -23,7 +23,10 @@
     border: solid black 1px;
     border-radius: $radius;
 
-    &.section-3__project-1 { background: $bg-blue; }
+    &.featured { 
+      // background: $bg-blue;
+      // border-color: $text-blue;
+    }
     
     .left {
     }

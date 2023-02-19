@@ -1,13 +1,13 @@
 const template = document.createElement('template');
 template.innerHTML = `
-  <div class="section-3__project-1 project shadow">
+  <div class="section-3__project-1  project  featured  shadow">
     <div class="left">
 
       <!-- <h3>Full Stack Project 1 <span style="background: #121FCF;
 background: linear-gradient(to right, darkorange 0%, limegreen 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;">(Featured Project)</span></h3> -->
-      <h3>Full Stack Project 1 <span style="text-decoration: underline; font-weight: 100;">(Featured Project)</span></h3>
+      <h3>Full Stack Project 1 <a href="https://www.php-web-app.com" style="text-decoration: underline; font-weight: 400;">(Featured Project)</a></h3>
       <h4>Custom eCommerce Store</h4>
       
       <ul>
