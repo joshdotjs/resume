@@ -2,7 +2,7 @@ $v-offset: 5px;
 $h-offset: 1px;
 // $blur: 20px;
 $spread: 0px;
-$shadow-clr: rgba(0, 0, 0, 0.2);
+$shadow-clr: rgba(0, 0, 0, 0.15);
 $shadow-clr-hover: rgba(0, 0, 0, 0.175);
 
 @function shadow($blur) {
