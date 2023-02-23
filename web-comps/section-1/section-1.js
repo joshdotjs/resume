@@ -16,7 +16,7 @@ template.innerHTML = `
 
         <div class="socials">
           <h5>
-            <a href="https://www.youtube.com/@JHolloway" target="_blank">
+            <a href="https://www.youtube.com/@joshDotJS" target="_blank">
               <svg-youtube></svg-youtube>
             </a>
           </h5>

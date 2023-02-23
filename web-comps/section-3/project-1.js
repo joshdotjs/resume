@@ -28,7 +28,8 @@ background: linear-gradient(to right, darkorange 0%, limegreen 100%);
     <div class="logos top">
       <img class="logo" src="/img/logos/react.svg" />
       <img class="logo" src="/img/logos/laravel.svg" />
-      <img class="logo" src="/img/logos/mysql.svg" />
+      <!-- <img class="logo" src="/img/logos/mysql.svg" /> -->
+      <img class="logo" src="/img/logos/gsap.svg" />
       <img class="logo" src="/img/logos/vite.svg" />
     </div>
 
