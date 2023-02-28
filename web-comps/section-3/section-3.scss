@@ -61,6 +61,8 @@
       .demo-link {
         &:not(:last-child) { 
           // background: lightblue;
+
+          margin-bottom: calc(0.5 * #{$gap}); 
           @include sm { 
             margin-bottom: calc(0.75 * #{$gap}); 
           }
