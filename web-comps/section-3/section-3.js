@@ -5,8 +5,8 @@ template.innerHTML = `
     <h2>Portfolio</h2>
 
     <project-1></project-1>
-    <project-2></project-2>
-    <project-3></project-3>
+    <!-- <project-2></project-2> -->
+    <!-- <project-3></project-3> -->
     <project-4></project-4>
     <project-5></project-5>
 
